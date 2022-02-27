@@ -1,5 +1,5 @@
 package chronometre;
-// Btn pour arreter le chrono lorsq'il est lancé
+// btn pour enregistrer un chrono , enregistre uniquement les 3 dernier , puis est déactivé après
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -14,13 +14,18 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.SwingWorker;
 
-public class StopBtn implements ActionListener{
+
+public class RecordBtn implements ActionListener{
+// enregistre dans un tableau
+	
+	private int Record =1; // initialisation du nbre d'action btnrecord
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		
 	}
-
-
+	
+	// si record > 7 le btn sera désactivé
+	// tant que <7 lorsqu'on clique, va enregister le chrono dans le tableau
 }

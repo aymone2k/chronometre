@@ -1,5 +1,5 @@
 package chronometre;
-// Btn pour arreter le chrono lorsq'il est lancé
+// btn qui fait repartir le chrono s'il est stoppé
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -14,13 +14,12 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.SwingWorker;
 
-public class StopBtn implements ActionListener{
+public class ReStartBtn implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		
 	}
-
 
 }
